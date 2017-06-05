@@ -10,10 +10,6 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
-    puts "#{@user.microposts.first}"
-    # respond_to do |format|
-    #   format.json {render User.first.microposts.first}
-    # end
   end
 
   # GET /users/new
